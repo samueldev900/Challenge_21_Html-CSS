@@ -15,6 +15,61 @@
     padding: 0;
     font-family: 'Inter', sans-serif;
 }
+
+body{
+    position: relative;
+    background-color: var(--cor2);
+}
+header{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;
+    height: 95px;
+    margin: auto;
+}
+ul {
+    list-style-type: none; 
+}
 .logo-icon{
     width: 55px;
+    height: 33.85px;
+}
+.menu-icon{
+    width: 40px;
+    height: 17px;
+}
+#menu-close{
+    display: none;
+    width: 230px;
+    height: 115px;
+    padding-top: 30px;
+    padding-right: 20px;
+}
+#menu-close img{
+    cursor: pointer;
+    float: right;
+}
+main{
+    position: relative;
+}
+#menu-lateral{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0px;
+    height: 100vh;
+    background-color: var(--cor2);
+    transition: .3s;
+}
+nav{
+    display: none;
+    padding-left: 20px;
+    line-height: 40px;
+}
+nav a{
+    text-decoration: none;
+    color: var(--cor5);
+    font-size: 1.2rem;
 }
