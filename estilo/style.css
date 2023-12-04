@@ -18,14 +18,15 @@
 
 body{
     position: relative;
-    background-color: var(--cor2);
+    background-color: var(--cor3);
 }
 header{
     position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 350px;
+    width: calc(100%-25px);
+    padding: 0px 25px;
     height: 95px;
     margin: auto;
 }
@@ -58,7 +59,7 @@ main{
     position: absolute;
     top: 0;
     right: 0;
-    width: 0px;
+    width:0px;
     height: 100vh;
     background-color: var(--cor2);
     transition: .3s;
